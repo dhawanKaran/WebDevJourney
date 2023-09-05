@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribute Page to Linus Torvalds</title>
+    <!-- adding a favicon -->
+    <link rel="shortcut icon" href="Linus_Torvalds.jpeg" type="image/x-icon">
     <style>
         html{
             scroll-behavior: smooth;
+        }
+        aside{
+            width: 40%;
+            float: right;
+            background-color: aqua;
         }
     </style>
 </head>
@@ -16,7 +23,15 @@
         <p>The Creator of Linux</p>
     </header>
 
-    <a href="#resources">Go to Resources</a>
+    <nav>
+        <a href="#res">Go to Resources</a>
+        <br>
+        <a href="#bio">Go to Biography</a>
+        <br>
+        <a href="#ach">Go to Achievements</a>
+    </nav>
+
+    
 
     <figure>
         <img src="Linus_Torvalds.jpeg" alt="Linus Torvalds">
@@ -24,7 +39,7 @@
     </figure>
 
     <section>
-        <h2>Biography</h2>
+        <h2 id="bio">Biography</h2>
         <p>
             Linus Benedict Torvalds (born 28 December 1969) is a Finnish software engineer 
             who is the creator and lead developer of the Linux kernel, 
@@ -33,8 +48,17 @@
         </p>
     </section>
 
+    <aside>
+        <p>
+            Linus Benedict Torvalds (born 28 December 1969) is a Finnish software engineer 
+            who is the creator and lead developer of the Linux kernel, 
+            used by Linux distributions like Debian, Arch and Android. 
+            He also created the distributed version control system Git.
+        </p>
+    </aside>
+
     <section>
-        <h2>Achievements</h2>
+        <h2 id="ach">Achievements</h2>
         <ul>
             <li><strong>1991</strong> - Created the Linux kernel and the version control system Git.</li>
             <li><strong>2004</strong> - Named one of the "100 Most influential People in the World" by Time Magazine in 2004.</li>
@@ -58,7 +82,7 @@
     </section>
     
     <section>
-        <h2 id="resources">Resources</h2>
+        <h2 id="res">Resources</h2>
         <p>Learn more about Linus Torvalds and his work:</p>
 
         <ul>
