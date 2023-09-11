@@ -1,0 +1,15 @@
+/* Example of Absolute Unit */
+#div1{
+    background-color: red;
+    width: 500px;
+    height: 100px;
+}
+
+/* Exmaple of Percentage Unit */
+#div2{
+    background-color: aqua;
+    width: 50%;
+    height: 10%;
+    /* margin: 10px;
+    padding: 10px; */
+}

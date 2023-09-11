@@ -5,6 +5,7 @@
     background-color: orange;
     margin: 10px;
     padding: 25px;
+    /* box-sizing: border-box; */
 }
 #org{
     background-color: #FFA500; /* Hexadecimal Colors */
