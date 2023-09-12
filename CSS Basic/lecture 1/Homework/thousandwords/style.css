@@ -6,4 +6,7 @@
     margin: 10px;
     padding: 25px;
     /* box-sizing: border-box; */
+    overflow: scroll;
+    scrollbar-color: red orange;
+    scrollbar-width: thin;
 }
