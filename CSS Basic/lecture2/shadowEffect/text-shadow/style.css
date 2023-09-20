@@ -1,0 +1,6 @@
+h1{
+    text-shadow: 3px 3px 3px red;
+    text-shadow: 3px 3px 3px red, 3px 3px 3px green;
+    
+
+}

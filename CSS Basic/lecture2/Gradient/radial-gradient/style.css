@@ -1,0 +1,8 @@
+.myDiv{
+    border: 1px solid black;
+    margin: 10px;
+    height: 400px;
+    width: 200px;
+    background-image: radial-gradient(circle, Violet, Indigo, Blue, Green, Yellow, Orange, Red) ;
+    background-image: radial-gradient(Yellow 5%, Orange 10%, Red 50%);
+}

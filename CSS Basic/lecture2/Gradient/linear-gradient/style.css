@@ -1,0 +1,32 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    
+    /* Gradient with default direction */
+    background-image: linear-gradient(red,blue);
+
+    /* Gradient with any direction */
+    background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(to left,red,blue);
+    background-image: linear-gradient(to bottom,red,blue);
+    background-image: linear-gradient(to top,red,blue);
+    
+    /*diagonally gradient */
+    background-image: linear-gradient(to bottom right,red,blue);
+    background-image: linear-gradient(to bottom left,red,blue);
+    background-image: linear-gradient(to top right,red,blue);  
+    background-image: linear-gradient(to top left,red,blue,green);
+    
+    /* gradient with degree  */
+    background-image: linear-gradient(45deg,red,blue,green); 
+    background-image: linear-gradient(60deg,red,blue,green); 
+    background-image: linear-gradient(90deg,red,blue,green); 
+    background-image: linear-gradient(210deg,red,blue,green);
+
+    /* Opacity Example */
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,255,1));
+
+
+    background-image: linear-gradient(Orange, white, green);
+}

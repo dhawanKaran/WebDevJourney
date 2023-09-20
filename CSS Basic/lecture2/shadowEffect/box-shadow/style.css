@@ -1,0 +1,10 @@
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    box-shadow: 10px 10px 15px green; /* Single Shadow */
+    color: red;
+    box-shadow: 10px 10px 15px green, 15px 15px 15px brown; /* Multiple Shadows */
+    box-shadow: -10px -10px 15px green, 15px 15px 15px brown; /* By giving Negetive values
+}
